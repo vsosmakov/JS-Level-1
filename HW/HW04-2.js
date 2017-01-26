@@ -24,5 +24,8 @@ function countChar(str, sim){
   return (countB);
 }
 
+var str = prompt ('Введите строку');
+var sim = prompt ('Введите символ');
 
-console.log (countChar(prompt ('Введите строку'), prompt ('Введите символ')));
+alert ('в вашей строке ' + countChar(str,sim) + ' символа ' + '"' + sim + '"');
+
