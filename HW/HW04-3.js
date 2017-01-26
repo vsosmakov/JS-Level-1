@@ -2,9 +2,8 @@ function isEven(n) {
   switch (n) {
     case 0: return alert ('Ваше число ЧЕТНОЕ');
     case 1: return alert ('Ваше число НЕЧЕТНОЕ');
-  } 
-  return isEven(n-2);
-  }
+    default: return isEven(n-2);
+  }}
 
 isEven(+prompt('Введите число для проверки на четность:'));
 
