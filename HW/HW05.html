@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>04 Функции</title>
+  </head>
+  <body>
+    <ol>
+      <li>
+        <p><strong>Задание 5.1:</strong> <br>
+          Написать функцию преобразования цвета из 10-ного представления в 16-ный. Функция должна принимать 3 числа от 0 до 255 и возвращать строковый хеш.
+        </p>
+      </li>
+      <li>
+        <p><strong>Задание 5.2:</strong> <br>
+          Написать функцию, преобразующую число в объект. Передавая на вход число от 0 до 999, мы должны получить на выходе объект, в котором в соответствующих свойствах описаны единицы, десятки и сотни. Например для числа 245 мы должны получить следующий объект: {‘единицы’: 5, ‘десятки’: 4, 'сотни’: 2}. Если число превышает 999, необходимо выдать соответствующее сообщение с помощью console.log и вернуть пустой объект.
+        </p>  
+      </li>
+      <li>
+        <p><strong>Задание 5.3 (*):</strong> <br>
+          Реализовать функцию <code>objectToQueryString(object)</code>, которая принимает аргументом объект, возвращает строку. <br>
+          Примеры работы: <br>
+          <code>console.log(objectToQueryString({user: 'Dmitry'})); // user=Dmitry <br>
+          console.log(objectToQueryString({user: 'Dmitry', password: 'pass'})); // user=Dmitry&password=pass <br>
+          console.log(objectToQueryString({user: 'Dmitry', password: 'pass', id=1})); // user=Dmitry&password=pass&id=1 </code>
+        </p>
+      </li>
+    </ul>
+    <script src="HW05-1.js"> </script>
+    <script src="HW05-2.js"> </script>
+    <script src="HW05-3.js"> </script>    
+  </body>
+</html>
